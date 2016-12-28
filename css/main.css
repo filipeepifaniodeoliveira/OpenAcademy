@@ -1,0 +1,48 @@
+
+.bodyTable{
+  width: 514px;
+
+}
+
+.descriptionTable{   /*position: relative;*/
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 50%; } /*.box-header.with-border{ border-bottom: 1px solid #f4f4f4; width:50%; }*/
+
+.bodyTable{
+  width: 100%;
+  position: absolute;
+  background-color:#F7F7F7;
+}
+
+
+.human-readable-example {
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  color: #333;
+  width: 100%;
+}
+
+.human-readable-example td {
+  padding: 6px 3px 6px 3px;
+}
+
+.human-readable-example tr:first-child td:first-child {
+  width: 25%;
+}
+
+.human-readable-example tr:nth-child(even) {
+  background-color: #F7F7F7;
+}
+
+.human-readable-example tr:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+.jumbotron{
+	background-color: #F7F7F7;
+	
+}
