@@ -1,0 +1,23 @@
+<form name="FormContato" ng-submit="requisicao(select)">
+  <div class="form-group">
+
+      <h4>Selecione os datasets:</h4>
+
+      <select ng-model="select.tipo">
+        <option value="curso">pegar cursos</option>
+        <option value="disciplinas">pegar disciplinas</option>
+        <option value="media">pegar media</option>
+      </select>
+
+      <button type="submit" class="btn">Enviar Consulta</button>
+
+    </div>
+  </div>
+</form>
+
+<h4>Comentários:</h4>
+
+<div ng-repeat="post in posts" style="background-color: gray">
+  <p>TITULO: {{ post.title }}</p>
+  <p>COMENTARIO: {{ post.body }}</p>
+</div>
