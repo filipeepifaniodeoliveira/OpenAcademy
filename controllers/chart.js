@@ -1,4 +1,4 @@
-angular.module('gereaca').controller('chart', chartController);
+angular.module('openacademy').controller('chart', chartController);
 
 chartController.$inject = ['$scope', '$http'];
 

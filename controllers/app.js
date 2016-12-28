@@ -1,6 +1,6 @@
-angular.module('gereaca',['ngRoute','chart.js']);
+angular.module('openacademy',['ngRoute','chart.js']);
 
-angular.module('gereaca').config(function($routeProvider, $locationProvider) {
+angular.module('openacademy').config(function($routeProvider, $locationProvider) {
     $routeProvider.when("/chart", {
       templateUrl : "views/chart.html",
       controller: "chart"
